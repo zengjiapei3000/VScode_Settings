@@ -1,0 +1,158 @@
+{
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "csharp.semanticHighlighting.enabled": true,
+    //"commentTranslate.targetLanguage": "zh-CN",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Victor Mono, Fira Code, Inconsolata",
+    //"Dank Mono, Consolas, 'Courier New', monospace",
+    //"editor.autoIndent_fake": null,
+    "editor.autoIndent": "full",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "off",
+    "editor.tabSize": 4,
+    //"editor.autoIndent",
+    "search.showLineNumbers": true,
+    "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+    "editor.fontSize": 14.8,
+    "editor.lineHeight": 0,
+    "editor.fontWeight": "620",
+    "editor.fontLigatures": true,
+    "workbench.colorCustomizations": {},
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": "emphasis",
+            "settings": {
+                "fontStyle": "italic"
+               // "foreground": "#d0ff00"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+
+            "settings": {
+              "foreground": "#00ff00cc",
+              "fontStyle": ""
+            }
+        },
+        {
+            "scope": "entity.name.method",
+            "settings": {
+              "foreground": "#ffc400",
+              "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "strong",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#337514"
+            }
+        },
+        {
+            "scope": "markup.underline",
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": "markup.bold",
+            "settings": {
+              "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "markup.heading",
+            "settings": {
+              "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "markup.italic",
+            "settings": {
+              "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "String interpolation",
+            "scope": [
+              "punctuation.definition.template-expression.begin",
+              "punctuation.definition.template-expression.end",
+              "punctuation.section.embedded"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "this.self",
+            "scope": "variable.language",
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#ff5874"
+            }
+        },
+        {
+            "name": "@Decorator",
+            "scope": ["meta.decorator punctuation.decorator"],
+            "settings": {
+              "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": ["punctuation.definition.comment", "comment"],
+            "settings": {
+              // "foreground": "#ff5874",
+              "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+              //following will be in italic =FlottFlott
+              "entity.name.type.class", //class names
+              "keyword", //import, export, return…
+              "constant", //String, Number, Boolean…, this, super
+              "storage.modifier", //static keyword
+              "storage.type",
+              "storage.type.class.js", //class keyword
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+              //following will be excluded from italics VSCode has some defaults for italics
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+        }
+      ],
+    },
+    "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37\\python.exe",
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+}
